@@ -1,0 +1,49 @@
+set nocompatible
+filetype off
+
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
+
+"
+" Bundles
+"
+Bundle "gmarik/vundle"
+
+" original repos
+Bundle 'Shougo/neocomplcache'
+Bundle 'motemen/git-vim'
+Bundle 'ujihisa/neco-ghc'
+Bundle 'thinca/vim-quickrun'
+Bundle 'tpope/vim-surround'
+Bundle 'h1mesuke/unite-outline'
+Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/vimproc'
+Bundle 'tpope/vim-fugitive'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'mattn/webapi-vim'
+Bundle 'tyru/open-browser.vim'
+Bundle 'ujihisa/unite-haskellimport'
+Bundle 'Rip-Rip/clang_complete'
+Bundle 'osyo-manga/neocomplcache-clang_complete'
+Bundle 'eagletmt/ghcmod-vim'
+Bundle 'kien/ctrlp.vim'
+" Bundle 'Shougo/vimshell'
+" Bundle 'sickill/vim-pasta'
+" Bundle 'Shougo/vimfiler'
+" Bundle 'Lokaltog/vim-easymotion'
+" Bundle 'msanders/cocoa.vim'
+
+" vim-script's repos
+Bundle 'Align'
+Bundle 'The-NERD-Commenter'
+Bundle 'YankRing.vim'
+Bundle 'grep.vim'
+Bundle 'matchit.zip'
+Bundle 'haskell.vim'
+Bundle 'rdark'
+Bundle 'rdark-terminal'
+
+filetype plugin indent on
+
+" vim: expandtab softtabstop=2 shiftwidth=2
+" vim: foldmethod=marker filetype=vim

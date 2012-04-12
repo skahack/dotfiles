@@ -1,0 +1,9 @@
+"
+" ~/.vimrc
+" ===================================
+"
+let $MY_RUNTIMEPATH = '~/my/runtimepath'
+source $MY_RUNTIMEPATH/vimrc
+
+" vim: expandtab softtabstop=2 shiftwidth=2
+" vim: foldmethod=marker

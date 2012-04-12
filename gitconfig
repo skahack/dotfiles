@@ -1,0 +1,22 @@
+[user]
+	name = Hiroki Sato
+	email = m@skahack.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	l = pull
+	gup = !git fetch && git rebase
+	p = push
+	dv = !git diff -w "$@" | view -
+	c = commit -v
+	ca = commit -v -a
+	co = checkout
+	go = checkout -b
+	b = branch
+	ba = branch -a
+	count = shortlog -sn
+	cp = cherry-pick
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[apply]
+  whitespace = fix
