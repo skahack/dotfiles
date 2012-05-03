@@ -14,9 +14,9 @@ alias _='sudo'
 alias history='fc -l 1'
 
 # List direcory contents
-alias lsa='ls -lah'
-alias l='ls -la'
-alias ll='ls -l'
+alias lsa='gls --color -lah'
+alias l='gls --color -la'
+alias ll='gls --color -l'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
