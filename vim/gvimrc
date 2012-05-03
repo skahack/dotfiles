@@ -1,5 +1,7 @@
 colorscheme rdark
+
 set columns=120
 set lines=500
 set guioptions-=T
-set transparency=15
+set guioptions-=r
+"set transparency=15

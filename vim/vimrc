@@ -1,3 +1,4 @@
+let $MY_RUNTIMEPATH = '~/.vim'
 
 source $MY_RUNTIMEPATH/vundlerc
 
