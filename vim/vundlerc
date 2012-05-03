@@ -5,43 +5,52 @@ set runtimepath+=~/.vim/bundle/vundle
 call vundle#rc()
 
 "
-" Bundles
+" Vundle
 "
 Bundle "gmarik/vundle"
 
-" original repos
+" bundles
+Bundle 'kien/ctrlp.vim'
+Bundle 'Shougo/unite.vim'
 Bundle 'Shougo/neocomplcache'
-Bundle 'motemen/git-vim'
-Bundle 'ujihisa/neco-ghc'
 Bundle 'thinca/vim-quickrun'
 Bundle 'tpope/vim-surround'
-Bundle 'h1mesuke/unite-outline'
-Bundle 'Shougo/unite.vim'
-Bundle 'Shougo/vimproc'
-Bundle 'tpope/vim-fugitive'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mattn/webapi-vim'
-Bundle 'tyru/open-browser.vim'
-Bundle 'ujihisa/unite-haskellimport'
-Bundle 'Rip-Rip/clang_complete'
+Bundle 'ujihisa/neco-ghc'
 Bundle 'osyo-manga/neocomplcache-clang_complete'
+Bundle 'h1mesuke/unite-outline'
+Bundle 'ujihisa/unite-haskellimport'
+Bundle 'motemen/git-vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Rip-Rip/clang_complete'
 Bundle 'eagletmt/ghcmod-vim'
-Bundle 'kien/ctrlp.vim'
+Bundle 'Align'
+Bundle 'The-NERD-Commenter'
+Bundle 'YankRing.vim'
+Bundle 'grep.vim'
+Bundle 'matchit.zip'
+" Bundle 'tyru/open-browser.vim'
 " Bundle 'Shougo/vimshell'
 " Bundle 'sickill/vim-pasta'
 " Bundle 'Shougo/vimfiler'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'msanders/cocoa.vim'
 
-" vim-script's repos
-Bundle 'Align'
-Bundle 'The-NERD-Commenter'
-Bundle 'YankRing.vim'
-Bundle 'grep.vim'
-Bundle 'matchit.zip'
+
+" syntax
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'pbrisbin/html-template-syntax'
 Bundle 'haskell.vim'
+
+" colorschema
 Bundle 'rdark'
 Bundle 'rdark-terminal'
+Bundle 'davidbeckingsale/Smyck-Color-Scheme'
+Bundle 'tomasr/molokai'
+" Bundle 'altercation/vim-colors-solarized'
+
+" util
+Bundle 'Shougo/vimproc'
+Bundle 'mattn/webapi-vim'
 
 filetype plugin indent on
 
