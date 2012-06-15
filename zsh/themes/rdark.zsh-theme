@@ -20,6 +20,5 @@ ZSH_THEME_HG_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_DIRTY="%F{213} ✘%{$reset_color%}"
 ZSH_THEME_HG_PROMPT_CLEAN="%F{113} ✔%{$reset_color%}"
 
-PROMPT='%{$reset_color%}[ %F{215}%~ %F{255}] $(repository) ruby: $(~/.rvm/bin/rvm-prompt v)
+PROMPT='%{$reset_color%}[ %F{215}%~ %F{255}] $(repository) ruby: $(rbenv version-name)
 %F{117}\$ %{$reset_color%}'
-# RPROMPT='%B%F{208}%n%f%{$fg_bold[white]%}@%F{039}%m%f%{$reset_color%}'

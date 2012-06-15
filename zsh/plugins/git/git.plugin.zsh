@@ -1,6 +1,8 @@
 # Aliases
 alias g='git'
-alias gst='git status --ignore-submodules=dirty'
+compdef g=git
+alias gst='git status'
+compdef _git gst=git-status
 alias gl='git pull'
 compdef _git gl=git-pull
 alias gup='git fetch && git rebase'
@@ -50,6 +52,12 @@ alias gsd='git svn dcommit'
 function current_branch() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   echo ${ref#refs/heads/}
+}
+
+function current_repository() {
+
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo $(git remote -v | cut -d':' -f 2)
 }
 
 # these aliases take advantage of the previous function

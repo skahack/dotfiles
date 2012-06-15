@@ -15,11 +15,3 @@ function take() {
   cd $1
 }
 
-function zshrc_reload() {
-  source ~/.zshrc
-}
-
-function zshrc_reload() {
-  source ~/.zshrc
-}
-
