@@ -18,5 +18,9 @@ colorscheme rdark-terminal
 
 syntax on
 
+hi WhitespaceEOL guibg=red ctermbg=red
+match WhitespaceEOL /\s\+$/
+autocmd WinEnter * match WhitespaceEOL /\s\+$/
+
 " vim: expandtab softtabstop=2 shiftwidth=2
 " vim: foldmethod=marker
