@@ -2,9 +2,7 @@
 " key map
 "
 nnoremap <silent> \cd :lcd %:p:h<CR>
-nnoremap tt :tabnew<CR>
-nnoremap gb :bn<CR>
-nnoremap gB :bN<CR>
+nnoremap <silent> tt :tabnew<CR>
 
 noremap <C-c> "+y
 inoremap <C-v> <Esc>"+pa
