@@ -2,15 +2,25 @@ let $MY_RUNTIMEPATH = '~/.vim'
 
 source $MY_RUNTIMEPATH/vundlerc
 
-let my_setting_dir = split(globpath($MY_RUNTIMEPATH.'/mysettings', '*.vim'), "\n")
-for i in my_setting_dir
-  execute "source " . i
-endfor
+let filelist = expand('~/.vim/bundle/*')
+let splitted = split(filelist, "\n")
 
-let my_bundle_dir = split(globpath($MY_RUNTIMEPATH.'/bundles', '*'), "\n")
-for i in my_bundle_dir
-  execute "set runtimepath+=" . i
-endfor
+let exists_vundle = 0
+if len(splitted) > 1
+ let exists_vundle = 1
+endif
+
+if exists_vundle == 1
+  let my_setting_dir = split(globpath($MY_RUNTIMEPATH.'/mysettings', '*.vim'), "\n")
+  for i in my_setting_dir
+    execute "source " . i
+  endfor
+
+  let my_bundle_dir = split(globpath($MY_RUNTIMEPATH.'/bundles', '*'), "\n")
+  for i in my_bundle_dir
+    execute "set runtimepath+=" . i
+  endfor
+endif
 
 set runtimepath+=$MY_RUNTIMEPATH
 
