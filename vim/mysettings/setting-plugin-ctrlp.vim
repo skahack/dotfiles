@@ -15,7 +15,7 @@ let g:ctrlp_max_height = 20
 " let g:ctrlp_use_migemo = 1
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|project\/v1$\|cabal-dev$',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|project\/v1$\|cabal-dev\|cache\|tmp\|log\|uploads\|node_modules$',
   \ 'file': '\.exe$\|\.so$\|\.dll$\|\.o$\|\.hi$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
