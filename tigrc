@@ -1,7 +1,36 @@
+set line-graphics = yes
 
-set show-line-numbers = yes
-
+#
+# Generic
+#
 bind generic g move-first-line
-bind generic G move-last-line
+bind generic t move-last-line
+bind generic b view-refs
+bind generic H view-grep
+
+#
+# Status
+#
 bind status b !git co HEAD -- %(file)
 
+#
+# Main
+#
+bind main G !hub browse -- commit/%(commit)
+bind main R !git rebase -i %(commit)^
+
+#
+# Diff
+#
+bind diff G !@hub browse -- commit/%(commit)
+bind diff P !git add -p %(file)
+
+#
+# Tree
+#
+bind tree G !@hub browse -- tree/%(commit)/%(directory)
+
+#
+# Blob
+#
+bind blob G !@hub browse -- tree/%(commit)/%(file)

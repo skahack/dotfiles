@@ -6,6 +6,8 @@ export ZSH=~/.zsh
 #
 export LANG=ja_JP.UTF-8
 
+export GOPATH=$HOME
+
 export PATH=${HOME}/.cabal/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=/usr/local/share/python:$PATH
 export PATH=/usr/local/Cellar/php/5.3.10/bin:$PATH
@@ -13,6 +15,7 @@ export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export PATH=$HOME/.rbenv/shims:$PATH
 export PATH=$HOME/.phpenv/bin:$PATH
 export PATH=/usr/local/lib/node_modules/bin:$PATH
+export PATH=$GOPATH/bin:$PATH
 
 #
 # setup options
