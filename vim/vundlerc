@@ -15,12 +15,9 @@ Bundle 'Shougo/unite.vim'
 Bundle 'Shougo/neocomplcache'
 Bundle 'thinca/vim-quickrun'
 Bundle 'tpope/vim-surround'
-Bundle 'ujihisa/neco-ghc'
 Bundle 'Shougo/unite-outline'
-Bundle 'ujihisa/unite-haskellimport'
 Bundle 'motemen/git-vim'
 Bundle 'tpope/vim-fugitive'
-Bundle 'eagletmt/ghcmod-vim'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Align'
 Bundle 'The-NERD-Commenter'
@@ -28,14 +25,11 @@ Bundle 'grep.vim'
 Bundle 'matchit.zip'
 Bundle 'sudo.vim'
 Bundle 'mattn/ctrlp-register'
-Bundle 'osyo-manga/neocomplcache-clang_complete'
-Bundle 'Rip-Rip/clang_complete'
 Bundle 'scrooloose/syntastic'
 Bundle 'thinca/vim-ref'
 Bundle 'mattn/gist-vim'
 Bundle 'Shougo/vimshell'
 Bundle 'kana/vim-smartinput'
-Bundle 'dag/vim2hs'
 Bundle 'rking/ag.vim'
 Bundle 'gregsexton/gitv'
 Bundle 'LeafCage/yankround.vim'
@@ -51,7 +45,20 @@ Bundle 'gcmt/wildfire.vim'
 " Bundle 'sickill/vim-pasta'
 " Bundle 'Shougo/vimfiler'
 " Bundle 'Lokaltog/vim-easymotion'
+
+" c / c++ / obj-c
+" Bundle 'osyo-manga/neocomplcache-clang_complete'
+" Bundle 'Rip-Rip/clang_complete'
 " Bundle 'msanders/cocoa.vim'
+
+" Go
+Bundle 'fatih/vim-go'
+
+" Haskell
+" Bundle 'ujihisa/neco-ghc'
+" Bundle 'ujihisa/unite-haskellimport'
+" Bundle 'eagletmt/ghcmod-vim'
+" Bundle 'dag/vim2hs'
 
 
 " syntax
