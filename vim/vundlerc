@@ -70,8 +70,8 @@ Bundle 'beyondwords/vim-twig'
 " colorschema
 Bundle 'rdark'
 Bundle 'rdark-terminal'
-Bundle 'davidbeckingsale/Smyck-Color-Scheme'
 Bundle 'tomasr/molokai'
+" Bundle 'davidbeckingsale/Smyck-Color-Scheme'
 " Bundle 'altercation/vim-colors-solarized'
 
 " util
