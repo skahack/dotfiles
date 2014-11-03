@@ -30,7 +30,7 @@ export DISABLE_AUTO_UPDATE="true"
 export ZSH_THEME='rdark'
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-plugins=(git brew rails3 rbenv cabal ghc autojump extract)
+plugins=(git brew rbenv autojump extract)
 
 source $ZSH/oh-my-zsh.sh
 
