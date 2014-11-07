@@ -12,7 +12,7 @@ Bundle "gmarik/vundle"
 " bundles
 Bundle 'kien/ctrlp.vim'
 Bundle 'Shougo/unite.vim'
-Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplete.vim'
 Bundle 'thinca/vim-quickrun'
 Bundle 'tpope/vim-surround'
 Bundle 'Shougo/unite-outline'
