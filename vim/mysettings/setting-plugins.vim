@@ -7,13 +7,6 @@ let g:indent_guides_space_guides = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#242A2C ctermbg=236
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#2e3436 ctermbg=237
 
-" Syntastic
-let g:syntastic_mode_map = { 'mode': 'active',
-                           \ 'active_filetypes': [],
-                           \ 'passive_filetypes': ['haskell', 'objc'] }
-
-let g:syntastic_javascript_checkers = ['jshint']
-
 " yankround
 nmap p <Plug>(yankround-p)
 nmap P <Plug>(yankround-P)
@@ -21,3 +14,17 @@ nmap gp <Plug>(yankround-gp)
 nmap gP <Plug>(yankround-gP)
 nmap <C-p> <Plug>(yankround-prev)
 nmap <C-n> <Plug>(yankround-next)
+
+" watchdogs.vim
+let s:config = {
+\  "watchdogs_checker/_": {
+\    "hook/close_quickfix/enable_exit": 0
+\  }
+\}
+let g:watchdogs_check_BufWritePost_enable = 1
+
+call extend(g:quickrun_config, s:config)
+call watchdogs#setup(g:quickrun_config)
+
+" vim-jsx
+let g:jsx_ext_required = 0
