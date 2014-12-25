@@ -69,6 +69,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'pbrisbin/html-template-syntax'
 Bundle 'haskell.vim'
 Bundle 'beyondwords/vim-twig'
+Bundle 'plasticboy/vim-markdown'
 
 " colorschema
 Bundle 'rdark'
