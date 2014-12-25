@@ -25,6 +25,7 @@ Bundle 'grep.vim'
 Bundle 'matchit.zip'
 Bundle 'sudo.vim'
 Bundle 'mattn/ctrlp-register'
+Bundle 'scrooloose/syntastic'
 Bundle 'thinca/vim-ref'
 Bundle 'mattn/gist-vim'
 Bundle 'Shougo/vimshell'
@@ -34,10 +35,6 @@ Bundle 'gregsexton/gitv'
 Bundle 'LeafCage/yankround.vim'
 Bundle 'thinca/vim-localrc'
 Bundle 'gcmt/wildfire.vim'
-Bundle "osyo-manga/shabadou.vim"
-Bundle "osyo-manga/vim-watchdogs"
-Bundle "jceb/vim-hier"
-" Bundle 'scrooloose/syntastic'
 " Bundle 'sjl/gundo.vim'
 " Bundle 'goldfeld/vim-seek'
 " Bundle 'terryma/vim-multiple-cursors'
