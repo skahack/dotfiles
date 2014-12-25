@@ -27,4 +27,9 @@ call extend(g:quickrun_config, s:config)
 call watchdogs#setup(g:quickrun_config)
 
 " vim-jsx
-let g:jsx_ext_required = 0
+let g:jsx_ext_required = 1
+
+" markdown-vim
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_no_default_key_mappings = 1
+let g:vim_markdown_frontmatter = 1
